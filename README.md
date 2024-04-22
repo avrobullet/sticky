@@ -1,42 +1,5 @@
-# Base app with TypeScript
+# Intro
 
-Author: Cu Nguyen &lt;[cunguyen.dev@gmail.com](cnguyen.dev@gmail.com)&gt;
+Author: Alex Douglas &lt;[alexanderdouglas43@gmail.com](alexanderdouglas43@gmail.com)&gt;
 
-Deploy to Netlify: [https://todo-list-typescript.netlify.app/](https://todo-list-typescript.netlify.app/)
-
-## Requirements
-
-- [Node](https://nodejs.org/en/) &gt;=8.4.0 / [npm](https://www.npmjs.com/) &gt;=5.3.0
-  - Recommend installing with [nvm](https://github.com/creationix/nvm)
-- [Parcel](https://parceljs.org/) &gt;=1.12.4
-- [Yarn](https://classic.yarnpkg.com) &gt;=1.22.4 (Optional)
-
-## Getting Started
-
-Step by step to run this app in your local
-
-### Install packages
-
-At your directory root, run:
-
-```
-npm/yarn install
-```
-
-### Run server
-
-```
-npm/yarn start
-```
-
-Open on web: http://localhost:1234 (this is by default, you can custom it)
-
-### Build
-
-```
-npm/yarn run build
-```
-
-_You can update the source structures to follow your patterns._
-
-_Note: Live-reload is supported_
+**Sticky** - my personal note taking and saving app. Just a simple and basic TypeScript project adapted from [here](https://github.com/cunguyendev/todo-list-typescript).

@@ -1,3 +1,7 @@
+.list-item {
+  cursor: grab; /* Change cursor to indicate draggable */
+}
+
 .app {
 
   .icon {
@@ -80,12 +84,13 @@
       }
 
       .item {
+
         &__title {
           padding: 0 15px;
         }
 
         &:hover {
-          cursor: pointer;
+          cursor: grab;
           background-color: #eaeaea;
           transition: all ease-out 0.5s;
 

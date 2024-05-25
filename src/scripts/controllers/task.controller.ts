@@ -5,6 +5,7 @@ import Storage from '../services/storage';
 import CONSTANTS from '../constants/index';
 import NotificationController from './notification.controller';
 import ConfirmationController from './confirmation.controller';
+import DragAndDropList from '../helpers/utilities'
 
 type GetTask = () => TaskModel[];
 
@@ -23,6 +24,8 @@ export default class TaskController {
 
   private confirmationController: ConfirmationController;
 
+  private dragAndDropList: DragAndDropList;
+
   constructor() {
     this.taskView = new TaskView();
     this.storage = new Storage();
@@ -31,6 +34,7 @@ export default class TaskController {
     this.notificationController = new NotificationController();
     this.confirmationController = new ConfirmationController();
     this.currentTask = 0;
+    this.dragAndDropList = new DragAndDropList('list');
   }
 
   /**

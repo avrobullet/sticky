@@ -21,8 +21,19 @@
         </h1>
       </div>
 
+      <h2>Drag and Drop List</h2>
+      <!-- List container -->
+      <ul id="list">
+        <!-- List items -->
+        <li class="list-item" draggable="true">Item 1</li>
+        <li class="list-item" draggable="true">Item 2</li>
+        <li class="list-item" draggable="true">Item 3</li>
+        <li class="list-item" draggable="true">Item 4</li>
+        <li class="list-item" draggable="true">Item 5</li>
+      </ul>
+
       <!-- Todo app -->
-      <div class="app__todo content">
+      <div class="app__todo content" id="list">
         <!-- Area for user input the data -->
         <div class="content__input">
           <button title="Mark all as done" class="fa fa-check btn btn--default" id="made-done"></button>
@@ -37,16 +48,16 @@
               data-task-id="1234"
               data-action="Mark"
               title="Mark as done"
-              class="btn btn--default fa data--check"
-            ></button>
+              class="btn btn--default fa data--check">
+            </button>
             <p class="item__title checked">Lorem ipsum dolor sit amet.</p>
             <input class="edit" type="text" value="Lorem ipsum dolor sit amet." />
             <button
-              class="fa fa-times btn btn--remove"
               data-task-id="1234"
               data-action="Remove"
               title="Remove this task"
-            ></button>
+              class="fa fa-times btn btn--remove">
+            </button>
           </div>
 
           <!-- Template for a task is no check status -->
@@ -55,15 +66,15 @@
               data-task-id="1234"
               data-action="Mark"
               title="Mark as done"
-              class="btn btn--default fa data--no-check"
-            ></button>
+              class="btn btn--default fa data--no-check">
+            </button>
             <p class="item__title">Lorem ipsum dolor sit amet.</p>
             <button
-              class="fa fa-times btn btn--remove"
               data-task-id="1234"
               data-action="Remove"
               title="Remove this task"
-            ></button>
+              class="fa fa-times btn btn--remove">
+            </button>
           </div>
         </div>
 
